@@ -1,0 +1,22 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "POC",
+  "main": "index.js",
+  "repository": "none",
+  "author": "shivam gupta",
+  "license": "NOne",
+  "private": false,
+  "devDependencies": {
+    "babel-jest": "*",
+    "babel-plugin-transform-runtime": "*",
+    "babel-preset-env": "*",
+    "jest": "*"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
